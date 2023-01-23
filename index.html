@@ -1,192 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Algorithmic Bias</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-        <link href="css/myStyle.css" rel="stylesheet" />
 
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Algorithmic Bias</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#algorithmic bias">Algorithmic Bias</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#what is it?">what is it?</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#examples">examples</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#prevention">Prevention</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#video">video</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#sources">sources</a></li>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Algorithmic Bias</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet"
+        type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/myStyle.css" rel="stylesheet" />
+
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span class="d-block d-lg-none">Algorithmic Bias</span>
+            <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
+                    src="assets/img/profile.jpg" alt="..." /></span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#algorithmic bias">Algorithmic Bias</a>
+                </li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#what is it?">what is it?</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#examples">examples</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#prevention">Prevention</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#video">video</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#sources">sources</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Page Content-->
+    <div class="container-fluid p-0">
+        <!-- Algorithmic Bias-->
+        <section class="resume-section" id="algorithmic bias">
+            <div class="resume-section-content">
+                <h1 class="mb-0">
+                    Algorithmic
+                    <span class="text-primary">Bias</span>
+                </h1>
+                <div class="subheading mb-5">
+                    by Ingrid Lu · adv compsci 2023
+                </div>
+                <p class="lead mb-6">what is algorithmic bias and how do we prevent it?</p>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- What is it?-->
+        <section class="resume-section" id="what is it?">
+            <div class="resume-section-content">
+                <h2 class="mb-5">what is it?</h2>
+                <p><span class="tabSpace"></span>Algorithmic bias is when machine learning models and algorithms produce
+                    results that are biased or unfair. “Bias” broadly means systematically less favorable outcomes
+                    towards a specific group of people. This happens when the information and data used to train these
+                    models were already biased to or against a particular group. Because our society is systematically
+                    unjust, the data fed into these models could result in the algorithms being biased against a
+                    specific community. Historical inequalities are seen to be amplified in algorithms that are fed
+                    incomplete and biased data.
+                </p>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- examples-->
+        <section class="resume-section" id="examples">
+            <div class="resume-section-content">
+                <h2 class="mb-5">examples</h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1 post">
+
+                        <div class="subheading mb-3 ">Amazon hiring AI</div>
+                        <div> In 2014 Amazon tried to introduce a hiring AI that ideally would be able to be given 100
+                            job applications and decide the top five, maximizing speed and efficiency. Quickly it was
+                            revealed that the AI had a strong preference for men, taking off points for the word “women”
+                            like in “women’s chess club”. This is because the AI taught itself what a good application
+                            looked like by looking at applications from the last ten years, which were predominantly
+                            male, reflecting how male-dominated the tech industry is. To this day most companies don’t
+                            trust algorithms to do their recruiting.
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">2015</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <div class="flex-grow-1 post">
+
+                        <div class="subheading mb-3">facial recognition</div>
+                        <p>GPA: 3.56</p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">August 2002 - May 2006</span></div>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- prevention-->
+        <section class="resume-section" id="prevention">
+            <div class="resume-section-content">
+                <h2 class="mb-5">prevention</h2>
+                <div class="subheading mb-3">Programming Languages & Tools</div>
+                <ul class="list-inline dev-icons">
+                    <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-angular"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-sass"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-less"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                </ul>
+                <div class="subheading mb-3">Workflow</div>
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Mobile-First, Responsive Design
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Cross Browser Testing & Debugging
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Cross Functional Teams
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Agile Development & Scrum
+                    </li>
                 </ul>
             </div>
-        </nav>
-        <!-- Page Content-->
-        <div class="container-fluid p-0">
-            <!-- Algorithmic Bias-->
-            <section class="resume-section" id="algorithmic bias">
-                <div class="resume-section-content">
-                    <h1 class="mb-0">
-                        Algorithmic
-                        <span class="text-primary">Bias</span>
-                    </h1>
-                    <div class="subheading mb-5">
-                        by Ingrid Lu · adv compsci 2023
-                    </div>
-                    <p class="lead mb-6">what is algorithmic bias and how do we prevent it?</p>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- What is it?-->
-            <section class="resume-section" id="what is it?">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">what is it?</h2>
-                            <p><span class="tabSpace"></span>Algorithmic bias is when machine learning models and algorithms produce results that are biased or unfair. “Bias” broadly means systematically less favorable outcomes towards a specific group of people. This happens when the information and data used to train these models were already biased to or against a particular group. Because our society is systematically unjust, the data fed into these models could result in the algorithms being biased against a specific community. Historical inequalities are seen to be amplified in algorithms that are fed incomplete and biased data. 
-                            </p>
-                        </div>
-            </section>
-            <hr class="m-0" />
-            <!-- examples-->
-            <section class="resume-section" id="examples">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">examples</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">University of Colorado Boulder</h3>
-                            <div class="subheading mb-3">Bachelor of Science</div>
-                            <div>Computer Science - Web Development Track</div>
-                            <p>GPA: 3.23</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2010</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">James Buchanan High School</h3>
-                            <div class="subheading mb-3">Technology Magnet Program</div>
-                            <p>GPA: 3.56</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2002 - May 2006</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- prevention-->
-            <section class="resume-section" id="prevention">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">prevention</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-less"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
-                    </ul>
-                    <div class="subheading mb-3">Workflow</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Mobile-First, Responsive Design
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Browser Testing & Debugging
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Functional Teams
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Agile Development & Scrum
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- video-->
-            <section class="resume-section" id="video">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">video</h2>
-                    <!-- <video width = "640" height = "480" controls>
+        </section>
+        <hr class="m-0" />
+        <!-- video-->
+        <section class="resume-section" id="video">
+            <div class="resume-section-content">
+                <h2 class="mb-5">video</h2>
+                <!-- <video width = "640" height = "480" controls>
                         <source src="https://www.youtube.com/watch?v=gV0_raKR2UQ" type=video/ogg>
                     </video> -->
-                    <iframe width="840" height="472" src="https://www.youtube.com/embed/gV0_raKR2UQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- sources-->
-            <section class="resume-section" id="sources">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">sources</h2>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Google Analytics Certified Developer
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Mobile Web Specialist - Google Certification
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            2
-                            <sup>nd</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - James Buchanan High School - Hackathon 2006
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            3
-                            <sup>rd</sup>
-                            Place - James Buchanan High School - Hackathon 2005
-                        </li>
-                    </ul>
-                </div>
-            </section>
-        </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+                <iframe width="840" height="472" src="https://www.youtube.com/embed/gV0_raKR2UQ"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- sources-->
+        <section class="resume-section" id="sources">
+            <div class="resume-section-content">
+                <h2 class="mb-5">sources</h2>
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                        Google Analytics Certified Developer
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                        Mobile Web Specialist - Google Certification
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                        1
+                        <sup>st</sup>
+                        Place - University of Colorado Boulder - Emerging Tech Competition 2009
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                        1
+                        <sup>st</sup>
+                        Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                        2
+                        <sup>nd</sup>
+                        Place - University of Colorado Boulder - Emerging Tech Competition 2008
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                        1
+                        <sup>st</sup>
+                        Place - James Buchanan High School - Hackathon 2006
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                        3
+                        <sup>rd</sup>
+                        Place - James Buchanan High School - Hackathon 2005
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+
 </html>
